@@ -1,0 +1,38 @@
+@media screen and (min-width:768px){ 
+    .out{
+        display: flex;
+        margin: 0 auto;
+        width: 100vw;
+    }
+    .outLine{
+        padding: 0;
+        display: flex;
+        /* width: 470px; */
+        max-width: 70%;
+        margin: 0 auto;
+
+    }   
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        /* width: 470px; */
+    }
+}
+@media screen and (max-width:767px){ 
+    .outLine{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+        min-width: 100vw;
+
+    }
+    .main{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

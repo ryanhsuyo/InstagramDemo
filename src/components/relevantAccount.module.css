@@ -1,0 +1,90 @@
+.outLine{
+    padding-top: 20px;
+    width: 950px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+}
+.header{
+    margin: 0 auto;
+    width: 910px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+
+}
+.ul{
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    position: relative;
+    align-items: center;
+}
+.li{
+    width: 200px;
+}
+.cardOut{
+    width: 200px;
+    height: 208px;
+    margin-top: 10px;
+}
+.cardPad{
+    padding: 20px 0;
+    width: 180px;
+    height: 154px;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardImg{
+    width: 54px;
+    height: 54px;
+    margin-bottom: 10px;
+}
+.img{
+    width: 54px;
+    border-radius: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.accout{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    color: #5a5a5a;
+    margin: 3px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+}
+.more{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 915px;
+    opacity: 50%;
+}

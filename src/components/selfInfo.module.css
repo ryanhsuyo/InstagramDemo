@@ -1,0 +1,138 @@
+@media screen and (max-width:1000px){
+    .outLine{
+        display: none;
+    }
+}
+.outLine{
+    width: 347px;
+    margin-top: 70px;
+}
+.accountBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.accountInfoBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 16px;
+}
+.circle{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.accountImg{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.accountIdBar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.accountId{
+    font-weight: 600;
+}
+.accountUserName{
+    font-weight: 400;
+}
+.accountSwitch{
+    margin-right: 16px;
+    color: #2788ff;
+    font-size: 5px;
+    font-weight: 900;
+}
+
+
+/* FCBar */
+.FCBar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.recommend{
+    font-weight: 600;
+    font-size: 12px;
+    color: #c3c3c3
+}
+.checkAll{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+
+
+/* recommendBar */
+.reAccountBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+.reAccountInfoBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reCircle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.reAccountImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.reAccountIdBar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+.reAccountId{
+    font-weight: 600;
+    font-size: 5px;
+}
+.reAccountUserName{
+    font-size: 5px;
+    font-weight: 400;
+}
+.reAccountFollow{
+    color: #2788ff;
+    font-size: 5px;
+    font-weight: 900;
+}
+
+
+
+/* aboutBar */
+.aboutBar{
+    display: flex;
+    justify-content: flex-start;
+    align-self: baseline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutDiv{
+    display: block;
+    padding: 0;
+    text-align: left;
+}
+.aboutSpan{
+    font-size: 8px;
+    color: #c3c3c3;
+}
+.copyRight{
+    font-size: 8px;
+    color: #c3c3c3;
+
+}

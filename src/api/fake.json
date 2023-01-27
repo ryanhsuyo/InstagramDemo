@@ -1,0 +1,77 @@
+
+
+{
+  "users": {
+    "user1": {
+      "username": "john_doe",
+      "email": "johndoe@example.com",
+      "name": "John Doe",
+      "profile_picture": "https://example.com/john_doe.jpg",
+      "followers": {
+        "user2": true,
+        "user3": true
+      },
+      "following": {
+        "user4": true,
+        "user5": true
+      }
+    },
+    "user2": {
+      "username": "jane_doe",
+      "email": "janedoe@example.com",
+      "name": "Jane Doe",
+      "profile_picture": "https://example.com/jane_doe.jpg",
+      "followers": {
+        "user1": true,
+        "user3": true
+      },
+      "following": {
+        "user4": true,
+        "user5": true
+      }
+    }
+  },
+  "posts": {
+    "post1": {
+      "user": "user1",
+      "image_url": "https://example.com/post1.jpg",
+      "caption": "My first post!",
+      "likes": {
+        "user2": true,
+        "user3": true
+      },
+      "comments": {
+        "comment1": {
+          "user": "user2",
+          "text": "Nice picture!"
+        },
+        "comment2": {
+          "user": "user3",
+          "text": "Great shot!"
+        }
+      }
+    },
+    "post2": {
+      "user": "user2",
+      "image_url": "https://example.com/post2.jpg",
+      "caption": "t",
+      "likes": {
+        "user1": true,
+        "user3": true
+      },
+      "comments": {
+        "comment1": {
+          "user": "user1",
+          "text": "Looks like fun!"
+        },
+        "comment2": {
+          "user": "user3",
+          "text": "Wish I was there!"
+        }
+      }
+    }
+  }
+}
+
+
+

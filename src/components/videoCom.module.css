@@ -1,0 +1,197 @@
+.outLine{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    /* max-width: 450px; */
+}
+.videoDiv{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.videoRL{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+    position: relative;
+    /* max-width: 100%; */
+}
+.videoContainer{
+    position: relative;
+    width: 100%;
+    /* padding-bottom: 56.25%; */
+    height: 90vh;
+    cursor: pointer;
+}
+.videoControl{
+    /* position: absolute; */
+    object-fit: scroll;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    /* overflow: hidden; */
+    border-radius: 10px;
+}
+.video{
+    height: 100%;
+    /* width: 100%; */
+}
+.mute{
+    border-radius: 100%;
+    background-color: azure;
+    opacity: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    z-index: 2;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.muteIcon{
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+}
+.play{
+    position: absolute;
+    padding: 20px;
+    left: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    opacity: 1;
+    border-radius: 100%;
+    z-index: 2;
+    bottom: 45%;
+    /* display: none; */
+}
+.playIcon{
+    width: 20px;
+    height: 20px;
+    z-index: 3;
+    color: white;
+}
+
+
+.leftBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+    width: 80%;
+    height: 100px;
+}
+.accountBar{
+    display: flex;
+    align-items: center;
+}
+.accountIcon{
+}
+.acoountImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.accountName{
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+}
+.accountSpace{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.following{
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+}
+.videoBar{
+    display: flex;
+    align-items: center;
+}
+.videoTitle{
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+}
+.videoTitleMore{
+    color:rgb(202, 202, 202);
+    font-size: 14px;
+}
+.musicBar{
+    display: flex;
+}
+.musicIcon{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-right: 20px;
+}
+.musicName{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.musicMark{
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    
+}
+
+.videoOutLine{
+    height: 90vh;
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 12px;
+    width: 10%;
+    max-width: 60px;
+    height: 90vh;
+}
+.ul{
+    height: 300px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.avaterImg{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}

@@ -1,0 +1,324 @@
+
+@media screen and (min-width:1264px){ 
+    .outLine{
+        padding: 0;
+        margin: 0;
+        justify-content: baseline;
+        align-items: baseline;
+        /* position: relative; */
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    .outLine2{
+        display: none;
+    }
+    .div{
+        position: sticky;
+        top:0;
+        padding: 12px 8px 25px 8px;
+        list-style: none;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: space-between;
+        border-right: 1px solid #f5f5f5;
+    }
+    .logo{
+        padding: 12px 8px 25px 8px;
+        margin-bottom: 19px;
+        height: 30px;
+        width: 100%; 
+        object-fit: cover;
+    } 
+    .logo2{
+        display: none;
+    }
+    .li{
+        width: 192px;
+        padding: 12px;
+    }
+    .iconDiv{
+        width: 150px;
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .iconImg{
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+    }
+    .iconTitle{
+        font-weight: 700;
+        font-size: 18px;
+        
+    }
+    .avaterImg{
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+    }
+    .searchBar{
+        width: 150px;
+        display: flex;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .searchIconDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchIcon{
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+    }
+    .searchText{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .btnLogin{
+        display: none;
+    }
+    .btnRegister{
+       display: none;
+    }
+    .menuDiv{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        bottom: 30px;
+        cursor: pointer;
+    }
+    .menuIcon{
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+    }
+    .menuText{
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 1263px){ 
+    .outLine{
+        padding: 0;
+        margin: 0;
+        justify-content: baseline;
+        /* width: 200px; */
+        align-items: baseline;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+    }
+    .outLine2{
+        display: none;
+    }
+    .div{
+        height: 100%;
+        padding: 30px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-right: 1px solid #f5f5f5;
+    }
+    .logo{
+        display: none;
+    } 
+    .logo2{
+        margin-top: 20px;
+        /* padding: 12px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+    }
+    .li{
+        width: 100%;
+        /* padding: 0px 12px; */
+    }
+    .iconDiv{
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .iconImg{
+        /* margin-right: 20px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+    }
+    .iconTitle{
+        font-weight: 700;
+        font-size: 18px;
+        display: none;
+    }
+    .avaterImg{
+        /* margin-right: 20px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+    }
+    .searchBar{
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .searchIconDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .searchIcon{
+        /* margin-right: 20px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+    }
+    .searchText{
+        display: none;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .btnLogin{
+        display: none;
+    }
+    .btnRegister{
+       display: none;
+    }
+    .menuDiv{
+        /* width: 100%; */
+        display: flex;
+        align-items: center;
+        bottom: 30px;
+        cursor: pointer;
+    }
+    .menuIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+    }
+    .menuText{
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) { 
+    
+    .outLine{
+        display: none;
+    }
+    .outLine2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 100vw;
+        width: 100%;
+        height: 65px;
+        position: fixed;
+        bottom: 0;
+    }
+    .topBar{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        display: flex;
+        padding: 12px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .leftBar{
+        display: flex;
+        width: 50%;
+    }
+    .iconDiv{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .logo{
+        width: 100%;
+        height: 40px;
+    }
+    
+    
+    
+    .rightBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .searchBar{
+        display: flex;
+        width: 70%;
+        height: 30px;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .searchIconDiv{
+        display: flex;
+        padding: 10px;
+    }
+    .searchIcon{
+        width: 10px;
+        height: 10px;
+    }
+    .searchText{
+        display: flex;
+        font-size: 8px;
+    }
+    .iconDiv{
+        display: flex;
+    }
+    .iconImg{
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+
+    /* bottomBar */
+    .bottomBar{
+        display: none;
+    }
+}

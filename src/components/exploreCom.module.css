@@ -1,0 +1,12 @@
+.outLine{
+    margin: 0 auto;
+    width: 80%;
+}
+.imgContainer{
+    display: -moz-grid-line;
+    padding: 10px;
+}
+.imgItem{
+    width: 200px;
+    padding: 10px;
+}

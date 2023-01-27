@@ -1,0 +1,256 @@
+@media screen and (min-width:768px) { 
+    .outLine{
+        width: 470px;
+        margin: 0 auto;
+    }
+    .container{
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #c3c3c3;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .postImgDiv{
+        display: flex;
+        width: 470px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .avaterImg{
+        width: 470px;
+    }
+}
+@media screen and (max-width:767px) { 
+    .outLine{
+        max-width: 470px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container{
+        border-radius: 5px;
+        border: 1px solid #c3c3c3;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        /* width: 100%; */
+    }
+    .postImgDiv{
+        display: flex;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .avaterImg{
+        width: 100%;
+    }
+}
+
+.ul{
+    padding: 0;
+    list-style: none;
+}
+.topBar{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.nameBar{
+    display: flex;
+    align-items: center;
+}
+.outCircle{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background:linear-gradient(45deg, #fff263,#ff932d, #f12fba, #b80ce8);
+    position: relative;
+}
+.circle{
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1px;
+}
+.avaterImgSmall{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.name{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.moreIconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moreIcon{
+    width: 20px;
+    height: 20px;
+}
+
+
+.postMoreIcon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 10px
+}
+.nextIcon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 20px;
+}
+
+
+
+/* signLine */
+.sectionBar{
+    display: flex;
+    justify-content: space-between;
+}
+.threeIcon{
+    display: flex;
+    flex-direction: row;
+}
+.sectionUl{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+.sectionBarIcon{
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+}
+.markIconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.markIcon{
+    padding: 10px;
+    width: 20px;
+    height: 20px; 
+}
+
+
+/* getAwesomeBar */
+.getAwesomeBar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.getAwesome{
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+
+/* textBar */
+.textBar{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.textBarMoreText{
+    display: flex;
+    margin-bottom: 10px;
+    color: #636363;
+    align-items: center;
+    justify-self: center;
+}
+.textReply{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.textContent{
+    margin-left: 5px;
+}
+.commentAndLove{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.comment{
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.commentUsername{
+    font-weight: 600;
+    margin-right: 5px;
+}
+.commentText{
+    font-weight: 400;
+    display: flex;
+    
+}
+.textHeartIcon{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+
+.textFCBar{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.textFCTime{
+    font-size: small;
+    color: #c3c3c3;
+}
+.textFCTranslate{
+    font-size: small;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+
+/* replyBar */
+.textReplyBar{
+    display: flex;
+    border-top: 1px solid #c3c3c3;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.textReplyMsgBar{
+    display: flex;
+}
+.textReplyMsgEmot{
+    display: flex;
+}
+.smileIcon{
+    width: 20px;
+    height: 20px;
+}
+.textReplyMsg{
+    display: flex;
+    color: #636363;
+    border: none;
+    margin-left: 10px;
+}
+.textSendBtn{
+    color: #87befd;
+    font-size: 5px;    
+    font-weight: 600;
+}
