@@ -1,12 +1,16 @@
 .outLine{
     margin: 0 auto;
     width: 80%;
+    height: 100%;
 }
 .imgContainer{
-    display: -moz-grid-line;
     padding: 10px;
+    /* height: 100vh; */
+    overflow: scroll;
 }
 .imgItem{
     width: 200px;
+    height: 200px;
+    object-fit: cover;
     padding: 10px;
 }

@@ -1,4 +1,4 @@
-import React,{ useState }  from "react";
+import React  from "react";
 // import { ReactDOM } from "react";
 import headerCss from "./header.module.css"
 import Logo from "../assets/instagramLogo.png"
@@ -13,20 +13,35 @@ import createIcon from '../assets/icon/tab.png'
 import avaterImg from '../assets/avaterImg/cat1.jpg' 
 import menuIcon from '../assets/icon/menu.png'
 import { useNavigate } from "react-router";
-// import CreateArticle from '../components/createArticle';
-// import caCss from './createArticle.module.css'
-// import closeIcon from '../assets/icon/close.svg'
-// import uploadIcon from '../assets/icon/upload.svg'
-
-
-
+import { useState } from "react";
+import Modal from 'react-modal';
+import CreateArticle from "./createArticle";
    
 function Header(){
     const go = useNavigate();
-    const [hasMask, setHasMask] = useState(false);
-    function createMask(){
-        console.log('waㄊ');
-    }
+    // const [isModalOpen, setIsModalOpen] = useState(false);
+
+
+    const customStyles = {
+        overlay: {
+          backgroundColor: 'rgba(0, 0, 0, 0.8)'
+        },
+        content: {
+          top: '50%',
+          left: '50%',
+          right: 'auto',
+          bottom: 'auto',
+          marginRight: '-50%',
+          transform: 'translate(-50%, -50%)',
+        }
+    };
+    // function openModal () {
+    //     setIsModalOpen(true)
+    // }
+    // function closeModal ()  {
+    //     setIsModalOpen(false);
+    // }
+    
     return(
         <div>
             <div className={headerCss.outLine}>
@@ -77,10 +92,16 @@ function Header(){
                             </div>
                         </li>
                         <li className={headerCss.li}>
-                            <div className={headerCss.iconDiv} id="createMaskBtn" onClick={function(){
-                                setHasMask(!hasMask)
-                                createMask() 
-                            }   }>
+                            <div className={headerCss.iconDiv} id="createMaskBtn"
+                                // onClick={openModal}
+                         >
+                             {/* <Modal 
+                                isOpen={isModalOpen} 
+                                // onRequestClose={closeModal}
+                                style={customStyles}
+                            >
+                                <CreateArticle onClose={closeModal}></CreateArticle>
+                            </Modal> */}
                                 <img className={headerCss.iconImg} src={createIcon} alt="createIcon"></img>
                                 <div className={headerCss.iconTitle}>建立</div>
                             </div>

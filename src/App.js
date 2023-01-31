@@ -1,20 +1,17 @@
 import './App.css';
-// import Header from './components/header'
-// import Blog from './components/blog'
-// import StoryConainter from './components/storyConainter'
-// import StoryClass from './components/storyClass'
-// import StoryCard from './components/storyPostCard'
-// import RelevantAccount from './components/relevantAccount'
-// import Footer from './components/footer'
-// import Home from './pages/home'
+import React from 'react';
 import { useRoutes } from 'react-router-dom'
 import routes  from './routes/routes';
+import CreateArticleProvider from './context/createArticle'
 
-
-const App = () =>{
-  const element = useRoutes(routes);
-  return element
+const App = () => {
+  return (
+      <CreateArticleProvider>
+          {useRoutes(routes)}
+      </CreateArticleProvider>
+  )
 }
+
 
 // 原本
 // function App() {

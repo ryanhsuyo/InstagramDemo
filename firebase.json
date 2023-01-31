@@ -22,10 +22,11 @@
     }
   ],
   "hosting": {
-    "public": "insta/src",
+    "public": "/build",
     "ignore": [
       "firebase.json",
       "**/.*",
+      "/.*",
       "**/node_modules/**"
     ],
     "rewrites": [

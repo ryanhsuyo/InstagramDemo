@@ -4,7 +4,6 @@ import ExploreCom from "../components/exploreCom";
 import exploreComCss from '../pages/explore.module.css'
 
 
-
 function Explore(){
     return (
         <>

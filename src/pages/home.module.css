@@ -1,8 +1,9 @@
 @media screen and (min-width:768px){ 
     .out{
         display: flex;
-        margin: 0 auto;
-        width: 100vw;
+        margin: auto;
+        margin-left: 225px;
+        /* width: 100%; */
     }
     .outLine{
         padding: 0;
